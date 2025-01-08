@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="10"
+    android:padding="4dp"
+    android:background="#2C2C2C">
+
+    <!-- Function key row -->
+    <Button android:text="ESC" android:tag="0x29" style="@style/KeyboardButton.Function" />
+    <Button android:text="F1" android:tag="0x3A" style="@style/KeyboardButton.Function" />
+    <Button android:text="F2" android:tag="0x3B" style="@style/KeyboardButton.Function" />
+    <Button android:text="F3" android:tag="0x3C" style="@style/KeyboardButton.Function" />
+    <Button android:text="F4" android:tag="0x3D" style="@style/KeyboardButton.Function" />
+    <Button android:text="F5" android:tag="0x3E" style="@style/KeyboardButton.Function" />
+    <Button android:text="F6" android:tag="0x3F" style="@style/KeyboardButton.Function" />
+    <Button android:text="F7" android:tag="0x40" style="@style/KeyboardButton.Function" />
+    <Button android:text="F8" android:tag="0x41" style="@style/KeyboardButton.Function" />
+    <Button android:text="F9" android:tag="0x42" style="@style/KeyboardButton.Function" />
+
+    <!-- Number row -->
+    <Button android:text="`" android:tag="0x35" style="@style/KeyboardButton" />
+    <Button android:text="1" android:tag="0x1E" style="@style/KeyboardButton" />
+    <Button android:text="2" android:tag="0x1F" style="@style/KeyboardButton" />
+    <Button android:text="3" android:tag="0x20" style="@style/KeyboardButton" />
+    <Button android:text="4" android:tag="0x21" style="@style/KeyboardButton" />
+    <Button android:text="5" android:tag="0x22" style="@style/KeyboardButton" />
+    <Button android:text="6" android:tag="0x23" style="@style/KeyboardButton" />
+    <Button android:text="7" android:tag="0x24" style="@style/KeyboardButton" />
+    <Button android:text="8" android:tag="0x25" style="@style/KeyboardButton" />
+    <Button android:text="9" android:tag="0x26" style="@style/KeyboardButton" />
+
+    <!-- QWERTY rows -->
+    <Button android:text="Q" android:tag="0x14" style="@style/KeyboardButton" />
+    <Button android:text="W" android:tag="0x1A" style="@style/KeyboardButton" />
+    <Button android:text="E" android:tag="0x08" style="@style/KeyboardButton" />
+    <Button android:text="R" android:tag="0x15" style="@style/KeyboardButton" />
+    <Button android:text="T" android:tag="0x17" style="@style/KeyboardButton" />
+    <Button android:text="Y" android:tag="0x1C" style="@style/KeyboardButton" />
+    <Button android:text="U" android:tag="0x18" style="@style/KeyboardButton" />
+    <Button android:text="I" android:tag="0x0C" style="@style/KeyboardButton" />
+    <Button android:text="O" android:tag="0x12" style="@style/KeyboardButton" />
+    <Button android:text="P" android:tag="0x13" style="@style/KeyboardButton" />
+
+    <!-- Modifier keys -->
+    <Button android:text="Shift" android:tag="LEFT_SHIFT" style="@style/KeyboardButton.Modifier" />
+    <Button android:text="Ctrl" android:tag="LEFT_CTRL" style="@style/KeyboardButton.Modifier" />
+    <Button android:text="Alt" android:tag="LEFT_ALT" style="@style/KeyboardButton.Modifier" />
+    
+    <!-- Special keys -->
+    <Button android:text="Enter" android:tag="0x28" style="@style/KeyboardButton.Special" />
+    <Button android:text="Space" android:tag="0x2C" style="@style/KeyboardButton.Space" />
+    <Button android:text="Backspace" android:tag="0x2A" style="@style/KeyboardButton.Special" />
+</GridLayout> 
